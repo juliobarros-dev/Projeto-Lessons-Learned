@@ -1,0 +1,157 @@
+body {
+    background-color: rgb(253, 251, 251);
+    font-family: trebuchet MS, sans-serif;
+    font-size: large;
+    text-decoration: none;
+    text-align: center;
+    font-style: normal;
+    text-decoration: none;
+}
+
+#cabecalho {
+    position: fixed;
+    background-color:white;
+    width: 100%;
+    height: 110px;
+    color: green;
+    top: 0%;
+}
+
+#titulo {
+    font-weight: 100;
+}
+
+h3 {
+    color: green;
+    font-style: normal;
+}
+
+#navegacao {
+    width: 900px;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+.buttons {
+    border: none;
+    width: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    background-color: white;
+}
+
+
+#minha_foto {
+    border-radius: 50%;
+    width: 250px;
+    margin-top: 110px;
+}
+
+
+#main{
+    height: 300px;
+    display:block;
+    width: 100%;
+}
+
+.lado-esquerdo {
+    width: 700px;
+    font-style: italic;
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    position: relative;
+    left: 80px;
+}
+
+.maintext {
+    position: absolute;
+    top: 50%;
+    margin: 0;
+    transform: translateY(-50%);
+    width: 700px;
+}
+
+.lado-direito {
+    width: 150px;
+    display: inline-block;
+    position: relative;
+    left: 190px;
+}
+
+#listas {
+    font-family: monospace;
+    font-style: italic;
+    line-height: auto;
+    text-align: justify;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    clear: right;
+    height: auto;
+}
+
+.list_title {
+    text-align: center;
+}
+
+#lista_ordenada {
+    float: left;
+    border: 3px;
+    border-style: outset;
+    border-radius: 10px;
+    border-color: whitesmoke;
+    width: 220px;
+}
+
+#lista_nao_ordenada {   
+    float: right;
+    border: 3px;
+    border-style: outset;
+    border-radius: 10px;
+    border-color: whitesmoke;
+    width: 220px;
+}
+
+#rodape {
+    clear: both;
+
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+
+#table {
+    float: right;
+}
+
+#links {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+li:active {
+    color: white
+}
+
+li:hover {
+    color: green;
+}
+
+i {
+    margin: 5px;
+    color: black;
+    font-size: 30px;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+}
